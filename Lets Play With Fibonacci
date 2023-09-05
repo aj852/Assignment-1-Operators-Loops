@@ -1,11 +1,12 @@
-# Initialize the first two Fibonacci numbers
+#Initialize the first two Fibonacci numbers
 a, b = 0, 1
 
-# Print the first Fibonacci number (1)
+#Print the first Fibonacci number (1)
 print(b, end=' ')
 
-# Generate the Fibonacci series up to 50
-while b < 50:
+#Generate the Fibonacci series up to 50
+fibonacci_of_num=int(input("enter a number:"))
+while b < fibonacci_of_num:
     a, b = b, a + b
-    if b <= 50:
+    if b <= fibonacci_of_num:
         print(b, end=' ')
