@@ -4,7 +4,7 @@ a, b = 0, 1
 #Print the first Fibonacci number (1)
 print(b, end=' ')
 
-#Generate the Fibonacci series up to 50
+#Generate the Fibonacci series up to "n" numbers
 fibonacci_of_num=int(input("enter a number:"))
 while b < fibonacci_of_num:
     a, b = b, a + b
